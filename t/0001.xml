@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<language>
+    <page id="9814072" title="Info Center" voice="no">
+        <!-- Titles -->
+        <t id="1">No filters specified - Add some filters in filter settings!</t>
+        <t id="2">Info Center</t>
+        <t id="3">Info Center Filters</t>
+        <!-- Object Type Filters -->
+        <t id="10">Object Types</t>
+        <t id="11">Show Stations</t>
+        <t id="12">Show Wings</t>
+        <t id="13">Show Unassigned Ships</t>
+        <!-- Ship Class Filters -->
+        <t id="20">Ship Classes</t>
+        <t id="21">Show Ship Class S</t>
+        <t id="22">Show Ship Class M</t>
+        <t id="23">Show Ship Class L</t>
+        <t id="24">Show Ship Class XL</t>
+        <!-- Deployable Filters -->
+        <t id="30">Deployables</t>
+        <t id="31">Show Lasertowers</t>
+        <t id="32">Show Mines</t>
+        <t id="33">Show Nav Beacons</t>
+        <t id="34">Show Resource Probes</t>
+        <t id="35">Show Satellites</t>
+        <t id="36">Show Lockboxes</t>
+        <!-- Ship Type Filters -->
+        <t id="40">Ship Types</t>
+        <t id="41">Show Fight Ships</t>
+        <t id="42">Show Trade Ships</t>
+        <t id="43">Show Mining Ships</t>
+        <t id="44">Show Builder Ships</t>
+        <t id="45">Show Resupply Ships</t>
+        <t id="46">Show Tug Ships</t>
+        <t id="47">Show Recycling Ships</t>
+        <!-- Other Filters -->
+        <t id="50">Other</t>
+        <t id="51">Show Shield/Hull Bars</t>
+        <t id="52">Show extra trader info</t>
+        <t id="53">Show extra miner info</t>
+        <t id="54">Show station balance</t>
+        <t id="55">Show sort options</t>
+        <t id="56">Show simple view options</t>
+        <t id="57">Show alternating row colors</t>
+        <!-- Hotkey -->
+        <t id="60">Open Info Center</t>
+        <t id="61">Opens info center map menu.</t>
+        <!-- Other Text -->
+        <t id="100">Under Construction!</t>
+        <t id="101">Balance</t>
+        <t id="102">Trading:</t>s
+        <t id="103">Storage Used:</t>
+        <t id="104">Sector</t>
+        <t id="105">Order</t>
+        <t id="106">Simple view options</t>
+        <t id="107">Show simple view</t>
+        <t id="108">Hide simple view</t>
+        <t id="109">Show only damaged ships</t>
+        <t id="110">Hide only damaged ships</t>
+    </page>
+</language>

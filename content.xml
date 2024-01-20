@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content id="InfoCenter" name="Info Center" description="Adds a new menu to the left sidebar in map menu with extra ship info." author="Forleyor" version="293" date="2023-06-22" save="0" enabled="1">
+    <text language="7" name="Info Center" description="Adds a new menu to the left sidebar in map menu with extra ship info." author="Forleyor" />
+    <text language="33" name="Info Center" description="Adds a new menu to the left sidebar in map menu with extra ship info." author="Forleyor" />
+    <text language="39" name="Info Center" description="Adds a new menu to the left sidebar in map menu with extra ship info." author="Forleyor" />
+    <text language="44" name="Info Center" description="Adds a new menu to the left sidebar in map menu with extra ship info." author="Forleyor" />
+    <text language="49" name="Info Center" description="Fügt ein neues Menü links auf der Karte mit zusätzlichen Schiffsinformationen hinzu." author="Forleyor" />
+    <text language="55" name="Info Center" description="Adds a new menu to the left sidebar in map menu with extra ship info." author="Forleyor" />
+    <text language="81" name="Info Center" description="Adds a new menu to the left sidebar in map menu with extra ship info." author="Forleyor" />
+    <text language="82" name="Info Center" description="Adds a new menu to the left sidebar in map menu with extra ship info." author="Forleyor" />
+    <text language="86" name="Info Center" description="Adds a new menu to the left sidebar in map menu with extra ship info." author="Forleyor" />
+    <text language="88" name="Info Center" description="Adds a new menu to the left sidebar in map menu with extra ship info." author="Forleyor" />
+    <dependency id="ws_2042901274" optional="false" name="SirNukes Mod Support APIs"/>
+    <dependency id="kuerteeUIExtensionsAndHUD" optional="false" name="kuertee UI Extensions and HUD"/>
+</content>

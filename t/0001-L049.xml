@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<language>
+    <page id="9814072" title="Info Center" voice="no">
+        <!-- Titles -->
+        <t id="1">Keine Filter ausgewählt - Füge Filter in den Filtereinstellungen hinzu!</t>
+        <t id="2">Info Center</t>
+        <t id="3">Info Center-Filter</t>
+        <!-- Object Type Filters -->
+        <t id="10">Objekttypen</t>
+        <t id="11">Zeige Stationen</t>
+        <t id="12">Zeige Flotten</t>
+        <t id="13">Zeige nicht zugewiesene Schiffe</t>
+        <!-- Ship Class Filters -->
+        <t id="20">Schiffsklassen</t>
+        <t id="21">Zeige S-Schiffe</t>
+        <t id="22">Zeige M-Schiffe</t>
+        <t id="23">Zeige L-Schiffe</t>
+        <t id="24">Zeige XL-Schiffe</t>
+        <!-- Deployable Filters -->
+        <t id="30">Aufstellbares</t>
+        <t id="31">Zeige Geschütztürme</t>
+        <t id="32">Zeige Minen</t>
+        <t id="33">Zeige Navigationsbaken</t>
+        <t id="34">Zeige Ressourcensonden</t>
+        <t id="35">Zeige Satelliten</t>
+        <t id="36">Zeige Sicherheitscontainer</t>
+        <!-- Ship Type Filters -->
+        <t id="40">Schiffstypen</t>
+        <t id="41">Zeige Kampfschiffe</t>
+        <t id="42">Zeige Handelsschiffe</t>
+        <t id="43">Zeige Bergbauschiffe</t>
+        <t id="44">Zeige Konstruktionsschiffe</t>
+        <t id="45">Zeige Unterstützungsschiffe</t>
+        <t id="46">Zeige Schleppschiffe</t>
+        <t id="47">Zeige Recyclingschiffe</t>
+        <!-- Other Filters -->
+        <t id="50">Sonstiges</t>
+        <t id="51">Zeige Schild/Hülle</t>
+        <t id="52">Zeige extra Händler-Info</t>
+        <t id="53">Zeige extra Bergbau-Info</t>
+        <t id="54">Zeige Stations-Kontostand</t>
+        <t id="55">Zeige Sortieroptionen</t>
+        <t id="56">Zeige Optionen für Einfache Ansicht</t>
+        <t id="57">Zeige alternative Zeilenfarben</t>
+        <!-- Hotkey -->
+        <t id="60">Öffne Info Center</t>
+        <t id="61">Öffnet Info Center-Kartenmenü.</t>
+        <!-- Other Text -->
+        <t id="100">Im Bau!</t>
+        <t id="101">Kontostand</t>
+        <t id="102">Handel:</t>
+        <t id="103">Benutzter Laderaum:</t>
+        <t id="104">Sektor</t>
+        <t id="105">Aufgabe</t>
+        <t id="106">Optionen für Einfache Ansicht</t>
+        <t id="107">Zeige Einfache Ansicht</t>
+        <t id="108">Verberge Einfache Ansicht</t>
+        <t id="109">Zeige nur beschädigte Schiffe</t>
+        <t id="110">Verberge nur beschädigte Schiffe</t>
+    </page>
+</language>

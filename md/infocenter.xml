@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mdscript name="infocenter" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+  <cues>
+      <cue name="OnLuaLoaderReady">
+      <conditions>
+        <event_ui_triggered screen="'Lua_Loader'" control="'Ready'" />
+      </conditions>
+      <actions>
+        <raise_lua_event name="'Lua_Loader.Load'" param="'extensions.kuertee_ui_extensions.ui.kuertee_menu_map'"/>
+        <raise_lua_event name="'Lua_Loader.Load'" param="'extensions.infocenter.ui.infocenter'"/>
+      </actions>
+    </cue>
+    <cue name="OnLuaLoaderReadyCompleted">
+      <conditions>
+        <event_cue_completed cue="OnLuaLoaderReady" />
+      </conditions>
+      <actions>
+        <reset_cue cue="OnLuaLoaderReady" />
+        <reset_cue cue="this" />
+      </actions>
+    </cue>
+    <!-- <cue name="Text"/>
+    <library name="Load_Text">
+      <actions>
+        <set_value exact="{9814072, 60}" name="Text.$ic_open_menu" />
+        <set_value exact="{9814072, 61}" name="Text.$ic_open_menu_description" />
+      </actions>
+    </library>
+    <cue name="Register_Keys" instantiate="true">
+      <conditions>
+        <event_cue_signalled cue="md.Hotkey_API.Reloaded" />
+      </conditions>
+      <actions>
+        <include_actions ref="Load_Text"/>
+        <signal_cue_instantly cue="md.Hotkey_API.Register_Action" param="table[
+          $id          = 'ic_open_info_center', 
+          $onPress     = info_center_open,
+          $name        = Text.$ic_open_menu, 
+          $description = Text.$ic_open_menu_description, 
+          $contexts    = ['flying','walking','menus'],
+          ]"/>
+      </actions>
+    </cue>
+    <cue name="InfoCenter" namespace="this">
+      <conditions>
+        <check_any>
+          <event_cue_signalled cue="md.Setup.GameStart" />
+          <event_game_loaded />
+        </check_any>
+      </conditions>
+      <actions>
+        <set_value name="InfoCenter.$isMapMenuOpen" exact="false" />
+      </actions>
+      <cues>
+        <cue name="OnMapMenu">
+          <conditions>
+            <event_ui_triggered screen="'MapMenu'" />
+          </conditions>
+          <actions>
+            <set_value name="InfoCenter.$isMapMenuOpen" exact="event.param2 != 'menu_close'" />
+            <reset_cue cue="this" />
+          </actions>
+        </cue>
+        <cue name="info_center_open" instantiate="true" namespace="this">
+        <conditions>
+          <event_cue_signalled/>
+        </conditions>
+        <actions>
+          <do_if value="not InfoCenter.$isMapMenuOpen">
+            <raise_lua_event name="'infocenter.openInfoCenterWithHotkey'" param="event.param.$event + ';Open'" />
+          </do_if>
+          <do_else>
+            <raise_lua_event name="'infocenter.openInfoCenterWithHotkey'" param="event.param.$event + ';Close'" />
+          </do_else>
+        </actions>
+        </cue>
+      </cues>
+    </cue> -->
+  </cues>
+</mdscript>
